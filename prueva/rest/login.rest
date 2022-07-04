@@ -1,0 +1,9 @@
+http://localhost:3001/app/post
+content-type: application/json
+Authorization: Bearer Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoicmFtc2VzIiwiaWQiOiI2MjVjYzI1MWFmODBlNjAxY2M1NDBmNGMiLCJpYXQiOjE2NTAyNTczNjR9.lSdpIE7MHt32gjbQi7O6Xdr3U3HrXTdZ_S4eL70iPy4
+
+{
+	"title":"hacer ejercicio",
+	"content": "10 pdsssdfechadas",
+	"userId": "625cc251af80e601cc540f4c"
+}

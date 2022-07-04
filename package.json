@@ -1,0 +1,22 @@
+{
+  "name": "app",
+  "private": true,
+  "version": "1.0.0",
+  "workspaces":[
+    "prueva",
+    "myApp"
+  ],
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npm run build --workspace=myApp",
+    "start": "npm start --workspace=prueva"
+  },
+  "devDependencies": {
+    "eslint": "8.11.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
